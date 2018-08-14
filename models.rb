@@ -1,3 +1,6 @@
+# Models
+# Non ActiveRecord models are classes which encapsulate unique business logic
+# out of your ActiveRecord model
 
 # Fat Controllers are bad, they can get worse when new behavior is added
 # Bad
