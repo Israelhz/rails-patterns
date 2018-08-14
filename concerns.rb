@@ -1,4 +1,7 @@
 # CONCERNS
+# Help extract duplicate code into reusable modules that can be mixed
+# into multiple controllers or models
+
 class Post < ActiveRecord::Base
   has_many :comments, as: :commentable
 
